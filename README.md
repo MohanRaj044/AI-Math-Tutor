@@ -24,12 +24,14 @@ set GEMINI_API_KEY=YOUR_API_KEY_HERE
 
 Example PowerShell:
 ```
-$env:GEMINI_API_KEY = "YOUR_API_KEY_HERE"
+env:GEMINI_API_KEY = "YOUR_API_KEY_HERE"
 ```
 
 Run locally:
 ```
-python -m pip install -r requirements.txt
+cd ai_math_tutor
+dir
+pip install -r requirements.txt
 streamlit run app.py
 ```
 
